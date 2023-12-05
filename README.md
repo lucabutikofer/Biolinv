@@ -1,2 +1,10 @@
-# Biolinv
- Modelling and forecasting biological invasions in R
+# Biolinv, Modelling and forecasting biological invasions in R
+
+Given a dataset with spatial and temporal coordinates (time series) of an exotic species during a biological invasion, this algorithm can be used to answer two main questions: What proportion of points of the invasion time series is of anthropogenic origin? What does the dispersal kernel of the naturally dispersed points look like?
+
+Install with:
+```
+devtools::install.github(lucabutikofer/Biolinv)
+```
+
+See [scientific publication](https://doi.org/10.1371/JOURNAL.PONE.0205591) for details.
