@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+Biolinv.Rproj
+.Rbuildignore
+.gitignore
+.gitattributes
