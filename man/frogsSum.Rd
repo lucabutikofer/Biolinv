@@ -4,7 +4,9 @@
 \name{frogsSum}
 \alias{frogsSum}
 \title{Summary of the dissimilarity values of each of the dataframes in 'frogsLacro' with dataframe 'frogs'.}
-\format{list of 8 lists of 10 dataframes each with 164 rows and 6 columns each.}
+\format{
+list of 8 lists of 10 dataframes each with 164 rows and 6 columns each.
+}
 \usage{
 data(frogsSum)
 }
@@ -18,4 +20,3 @@ Dataframe with dissimilarity values and respective Alpha value as obtained by fu
 }
 }
 \keyword{datasets}
-

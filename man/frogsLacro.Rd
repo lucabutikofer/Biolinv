@@ -4,7 +4,9 @@
 \name{frogsLacro}
 \alias{frogsLacro}
 \title{Simulated datasets for comparison with 'frogs' dataset generated with function simulacro() (see examples in ?simulacro).}
-\format{list of 8 lists of 10 dataframes each with 164 rows and 6 columns each.}
+\format{
+list of 8 lists of 10 dataframes each with 164 rows and 6 columns each.
+}
 \usage{
 data(frogsLacro)
 }
@@ -22,4 +24,3 @@ List of eight lists (one per different Alpha value used) each containing ten dat
 }
 }
 \keyword{datasets}
-

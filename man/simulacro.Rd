@@ -4,9 +4,24 @@
 \alias{simulacro}
 \title{Builds a simulated biological invasion dataset.}
 \usage{
-simulacro(INIDIST, YEARS, BOUNDARY, NNAT, NANTH, A, C = 2, X, HSM = FALSE,
-  FACANTH = 1, FACNAT = 1, ITERATIONS = 1, DIR = F,
-  TRUEANTH = c(FALSE, TRUE), TRUEDB, PROB = 0.5)
+simulacro(
+  INIDIST,
+  YEARS,
+  BOUNDARY,
+  NNAT,
+  NANTH,
+  A,
+  C = 2,
+  X,
+  HSM = FALSE,
+  FACANTH = 1,
+  FACNAT = 1,
+  ITERATIONS = 1,
+  DIR = F,
+  TRUEANTH = c(FALSE, TRUE),
+  TRUEDB,
+  PROB = 0.5
+)
 }
 \arguments{
 \item{INIDIST}{data frame of initial distribution. Columns must be: 'year' (year of first sighting); 'y' (latitude on a projected coordinate system with meters as distance unit of measure); 'x' (longitude on a projected coordinate system with meters as distance unit of measure); 'species' (the name of the species for that sighting location); 'Pnat' ([0;1], probability for that sighting location of being of natural origin (as computed by function EM())), 'Dist' (dispersal distance of that sighting location as computed by function EM()).}
@@ -78,4 +93,3 @@ frogsLacro<- simulacro(INIDIST=idst,YEARS=yr,
 \author{
 Luca Butikofer
 }
-

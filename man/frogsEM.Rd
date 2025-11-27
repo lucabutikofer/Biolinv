@@ -4,7 +4,9 @@
 \name{frogsEM}
 \alias{frogsEM}
 \title{Frogs sighting locations and the output of the EM() function.}
-\format{A dataframe with 194 rows and 6 variables}
+\format{
+A dataframe with 194 rows and 6 variables
+}
 \usage{
 data(frogsEM)
 }
@@ -22,4 +24,3 @@ Version of 'frogs' Dataset containing sighting locations of L. raniformis in New
 }
 }
 \keyword{datasets}
-

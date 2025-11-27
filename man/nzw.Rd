@@ -4,7 +4,9 @@
 \name{nzw}
 \alias{nzw}
 \title{Landmasses of the two main islands of New Zealand as Window object.}
-\format{object of class spatstat::owin.}
+\format{
+object of class spatstat::owin.
+}
 \usage{
 data(nzw)
 }
@@ -12,4 +14,3 @@ data(nzw)
 Object of class spatstat::owin of the North and South Islands of New Zealand in the New Zealand Transverse Mercatore projection obtained from object 'nzp' (see ?nzp).
 }
 \keyword{datasets}
-

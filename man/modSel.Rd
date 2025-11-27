@@ -36,4 +36,3 @@ frogsSum<- modSel(WIN= nzw, M0= frogsEM, M2= frogsLacro,
 \author{
 Luca Butikofer
 }
-
