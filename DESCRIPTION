@@ -6,9 +6,8 @@ Author: Luca Butikofer [aut, cre],
     Beatrix Jones [aut]
 Maintainer: Luca Butikofer <lucabutikofer@gmail.com>
 Description: Analysing and forecasting biological invasions time series
-    with a stochastic, non-mechanistic approach that gives proper weight
-    to the anthropic component, accounts for habitat suitability and
-    provides measures of precision for its estimates.
+    with a stochastic approach that accounts for anthropic dispersal, habitat suitability, and
+    provides measures of estimates' uncertainty.
     Bütikofer et al. (2018) <doi:10.1371/journal.pone.0205591>
 License: GPL-3
 LazyData: TRUE
